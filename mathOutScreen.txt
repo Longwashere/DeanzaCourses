@@ -1,0 +1,133 @@
+
+
+                         _      ____  _                 _
+                        / \    / ___|(_)_ __ ___  _ __ | | ___
+                       / _ \   \___ \| | '_ ` _ \| '_ \| |/ _ \
+                      / ___ \   ___) | | | | | | | |_) | |  __/
+                     /_/___\_\ |____/|_|_| |_| |_| .__/|_|\___|
+                      / ___|___  _   _ _ __ ___  |_|
+                     | |   / _ \| | | | '__/ __|/ _ \
+                     | |__| (_) | |_| | |  \__ \  __/
+                      \____\___/ \__,_|_|  |___/\___|
+                     |  \/  | __ _ _ __   __ _  __ _  ___ _ __
+                     | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+                     | |  | | (_| | | | | (_| | (_| |  __/ |
+                     |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|
+                                               |___/
+
+                               ( Version 1.1 )
+
+                       By: Kevin Church, Zoey Hsu, Andy Park
+                           Long Hoang, Quynh Nguyen
+
+
+
+Please enter input file name: math_winter14.txt
+Data is mounted!
+Successful ratio: 190 / 190
+
+    MENU:
+    A - Add class...
+    D - Delete class...
+    S - Search class...
+    H - Print hash table
+    L - Print sorted list >>
+    T - Print indented tree >>
+    E - Efficiency
+
+    F - Save to file...
+    M - Menu
+    Q - Quit
+
+Enter Option: e
+EFFIENCY
+
+List count:        190
+List Array Size:   383        Collision:          42
+Threshold:         35%        Load factor:       38%
+Max Bucket Size:     3        Longest bucket:      3
+
+Graph:
+
+   x x                        x                                             x
+ x x x               x x x    x         x           x    x                x x    x x    x
+ x x x xxxx    x     x x x xx x     x   x      x  x x  xxx x    x xx      x x xx x x xx x    x  x  x
+----------------------------------------------------------------------------------------------------
+ x                                                    x
+ x x                               x x              x x    x
+ x xx x x    x    x        xx   xxxx xx   x x   x x x xxxxxx x xx    x     xxx x xx x x           x
+----------------------------------------------------------------------------------------------------
+                              x
+             x                x                                 x                x
+   x    x xxxx xx   x  xxx  x x x xxxx    x  x   x  xx x x x x  x x         x    xx x x xxxx x
+----------------------------------------------------------------------------------------------------
+        x                                                                           xxxx xxxxxxx xxx
+ x      x           x         x           x  x               x         x            xxxx xxxxxxx xxx
+ x x x  x     xx    x  x x    x x  x  xxx x xx      x xx x x x  x  xxx x       x x  xxxx xxxxxxx xxx
+-----------------------------------------------------------------------------------
+
+Enter Option: a
+[...]
+Enter CRN (#####): 12345
+Enter course: MATH000
+Enter course title: Test rehash
+Enter instructor (Last, First): Team, 6
+Enter course day (MTWThFSSu): Su
+
+Class added successfully
+Data threshold reached. Attempting to rehash...
+Hash is successfully expanded
+
+Enter Option: e
+EFFIENCY
+
+List count:        191
+List Array Size:   769        Collision:           7
+Threshold:         35%        Load factor:       23%
+Max Bucket Size:     3        Longest bucket:      2
+
+Graph:
+
+
+                                                            x        x                      x
+  xx   x x xx                           x     xxxxxx       xx     xx x   x   x  x    x    x x
+----------------------------------------------------------------------------------------------------
+
+
+                             x xxx    xx   xx        xx       xxx   xxx          x     x
+----------------------------------------------------------------------------------------------------
+
+
+          x  x  xxx   x x  xx  xx  x        xxxx   xxxx   xx          x     x                    xxx
+----------------------------------------------------------------------------------------------------
+
+
+x     x   x     xx     x   x x    x     xxxx   x   x   x                        x  x   xxx   xx    x
+----------------------------------------------------------------------------------------------------
+
+                                                                        x
+x     xx xx        x     x   xxxx                               x      xxx  x xx    x   xxx  xx x x
+----------------------------------------------------------------------------------------------------
+
+
+  xxx x  xx  x       x     x    x                 x  x    x  x     x    xxx       x xxxx     x   xxx
+----------------------------------------------------------------------------------------------------
+
+                                                  x
+  x                  x               x x  x  xxx  xx    xx     x    x    x xx   xx    x x
+----------------------------------------------------------------------------------------------------
+                                                                      x
+                            x                 x                       x
+     x                     xxxxx x     xx   xxxx x  x      x    x     x
+---------------------------------------------------------------------
+
+Enter Option: q
+
+
+There are changes made to last save!
+List is saved to courseOut.tmp for auto-recovery
+
+
+Goodbye!
+No Memory Leak
+Press any key to continue . . .

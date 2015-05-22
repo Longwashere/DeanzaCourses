@@ -1,0 +1,864 @@
+
+
+                         _      ____  _                 _
+                        / \    / ___|(_)_ __ ___  _ __ | | ___
+                       / _ \   \___ \| | '_ ` _ \| '_ \| |/ _ \
+                      / ___ \   ___) | | | | | | | |_) | |  __/
+                     /_/___\_\ |____/|_|_| |_| |_| .__/|_|\___|
+                      / ___|___  _   _ _ __ ___  |_|
+                     | |   / _ \| | | | '__/ __|/ _ \
+                     | |__| (_) | |_| | |  \__ \  __/
+                      \____\___/ \__,_|_|  |___/\___|
+                     |  \/  | __ _ _ __   __ _  __ _  ___ _ __
+                     | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+                     | |  | | (_| | | | | (_| | (_| |  __/ |
+                     |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|
+                                               |___/
+
+                               ( Version 1.1 )
+
+                       By: Kevin Church, Zoey Hsu, Andy Park
+                           Long Hoang, Quynh Nguyen
+
+
+
+Please enter input file name: cis_winter14.txt
+Data is mounted!
+Successful ratio: 40 / 40
+
+    MENU:
+    A - Add class...
+    D - Delete class...
+    S - Search class...
+    H - Print hash table
+    L - Print sorted list >>
+    T - Print indented tree >>
+    E - Efficiency
+
+    F - Save to file...
+    M - Menu
+    Q - Quit
+
+Enter Option: e
+EFFIENCY
+
+List count:         40
+List Array Size:    83        Collision:           5
+Threshold:         75%        Load factor:       42%
+Max Bucket Size:     3        Longest bucket:      2
+
+Graph:
+
+                                                                                   xxxxxxxxxxxx xxxx
+                          x               x x               x                    x xxxxxxxxxxxx xxxx
+   x    x     x  x x x x  x   xxx  x  x xxx xx  x  x  x x   xx x x xxx    x xxxx x xxxxxxxxxxxx xxxx
+-----------------------------------------------------------------------------------
+
+Enter Option: h
+HASH TABLE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+------------------+  BUCKET [3]
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+------------------+  BUCKET [8]
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+------------------+  BUCKET [14]
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+------------------+  BUCKET [17]
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+------------------+  BUCKET [19]
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+------------------+  BUCKET [21]
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+------------------+  BUCKET [23]
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+------------------+  BUCKET [26]
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+------------------+  BUCKET [30]
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+------------------+  BUCKET [31]
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+------------------+  BUCKET [32]
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+------------------+  BUCKET [35]
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+------------------+  BUCKET [38]
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+------------------+  BUCKET [40]
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+------------------+  BUCKET [41]
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+------------------+  BUCKET [42]
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+------------------+  BUCKET [44]
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+------------------+  BUCKET [45]
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+------------------+  BUCKET [48]
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+------------------+  BUCKET [51]
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+------------------+  BUCKET [54]
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+------------------+  BUCKET [56]
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+------------------+  BUCKET [60]
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 31690 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TBA
+------------------+  BUCKET [61]
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+------------------+  BUCKET [63]
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+------------------+  BUCKET [65]
+ 30109 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TTh
+------------------+  BUCKET [67]
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+------------------+  BUCKET [68]
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+------------------+  BUCKET [69]
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+------------------+  BUCKET [74]
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+------------------+  BUCKET [76]
+ 32263 | CIS21JA   |  Introduction to 8086/IA 32 Processor Assembly Language | NGUYEN, UYEN              | TBA
+------------------+  BUCKET [77]
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+------------------+  BUCKET [78]
+ 32251 | CIS022B   |  Intermediate Programming Methodologies in C++          | NGUYEN, UYEN              | MW
+------------------+  BUCKET [79]
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+------------------+  BUCKET [81]
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+
+Enter Option: l
+[>>]    Print sorted list by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 1
+TREE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+ 30109 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TTh
+ 31690 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TBA
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+ 32251 | CIS022B   |  Intermediate Programming Methodologies in C++          | NGUYEN, UYEN              | MW
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+ 32263 | CIS21JA   |  Introduction to 8086/IA 32 Processor Assembly Language | NGUYEN, UYEN              | TBA
+
+Enter Option: l
+[>>]    Print sorted list by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 2
+TREE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+ 30109 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TTh
+ 31690 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TBA
+ 32251 | CIS022B   |  Intermediate Programming Methodologies in C++          | NGUYEN, UYEN              | MW
+ 32263 | CIS21JA   |  Introduction to 8086/IA 32 Processor Assembly Language | NGUYEN, UYEN              | TBA
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+
+Enter Option: m
+    MENU:
+    A - Add class...
+    D - Delete class...
+    S - Search class...
+    H - Print hash table
+    L - Print sorted list >>
+    T - Print indented tree >>
+    E - Efficiency
+
+    F - Save to file...
+    M - Menu
+    Q - Quit
+
+Enter Option: l
+[>>]    Print sorted list by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 0
+TREE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+ 30109 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TTh
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+ 31690 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TBA
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+ 32251 | CIS022B   |  Intermediate Programming Methodologies in C++          | NGUYEN, UYEN              | MW
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+ 32263 | CIS21JA   |  Introduction to 8086/IA 32 Processor Assembly Language | NGUYEN, UYEN              | TBA
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+
+Enter Option: t
+[>>]    Print indented tree by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 1
+Level   7 :------------------------( CIS21JA ) CRN: 32263
+Level   8 :---------------------------( CIS099 ) CRN: 32349
+Level   6 :---------------------( CIS098 ) CRN: 32352
+Level   5 :------------------( CIS095B ) CRN: 32259
+Level   6 :---------------------( CIS093 ) CRN: 32348
+Level   4 :---------------( CIS089A ) CRN: 30253
+Level   3 :------------( CIS067A ) CRN: 30462
+Level   5 :------------------( CIS064B ) CRN: 00455
+Level   6 :---------------------( CIS053 ) CRN: 32260
+Level   4 :---------------( CIS035B ) CRN: 00453
+Level   5 :------------------( CIS035A ) CRN: 30996
+Level   2 :---------( CIS035A ) CRN: 00450
+Level   5 :------------------( CIS033B ) CRN: 30250
+Level   6 :---------------------( CIS031 ) CRN: 00448
+Level   4 :---------------( CIS028 ) CRN: 31483
+Level   3 :------------( CIS026A ) CRN: 32247
+Level   5 :------------------( CIS022C ) CRN: 32256
+Level   7 :------------------------( CIS022B ) CRN: 32265
+Level   6 :---------------------( CIS022B ) CRN: 32251
+Level   4 :---------------( CIS022B ) CRN: 32253
+Level   1 :------( CIS022B ) CRN: 32353
+Level   0 :---( CIS022B ) CRN: 32255
+Level  11 :------------------------------------( CIS022A ) CRN: 32254
+Level  10 :---------------------------------( CIS022A ) CRN: 32249
+Level   9 :------------------------------( CIS022A ) CRN: 32264
+Level   8 :---------------------------( CIS022A ) CRN: 32252
+Level   7 :------------------------( CIS022A ) CRN: 32248
+Level   6 :---------------------( CIS022A ) CRN: 32250
+Level   5 :------------------( CIS022A ) CRN: 32266
+Level   4 :---------------( CIS022A ) CRN: 32257
+Level   5 :------------------( CIS018B ) CRN: 31690
+Level   3 :------------( CIS018B ) CRN: 30109
+Level   4 :---------------( CIS018A ) CRN: 00443
+Level   2 :---------( CIS018A ) CRN: 00444
+Level   1 :------( CIS014A ) CRN: 00440
+Level   5 :------------------( CIS003 ) CRN: 00436
+Level   4 :---------------( CIS003 ) CRN: 00438
+Level   3 :------------( CIS003 ) CRN: 00437
+Level   2 :---------( CIS003 ) CRN: 00439
+Level   3 :------------( CIS002 ) CRN: 00435
+
+Enter Option: t
+[>>]    Print indented tree by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 0
+bal   0: Level:   5------------------( CRN: 32353 )
+ (EH)
+bal   0: Level:   4---------------( CRN: 32352 )
+ (EH)
+bal   0: Level:   5------------------( CRN: 32349 )
+ (EH)
+bal   0: Level:   3------------( CRN: 32348 )
+ (EH)
+bal   1: Level:   4---------------( CRN: 32266 )
+ (LH)
+bal   0: Level:   5------------------( CRN: 32265 )
+ (EH)
+bal   0: Level:   2---------( CRN: 32264 )
+ (EH)
+bal   0: Level:   5------------------( CRN: 32263 )
+ (EH)
+bal   0: Level:   4---------------( CRN: 32260 )
+ (EH)
+bal   0: Level:   5------------------( CRN: 32259 )
+ (EH)
+bal  -1: Level:   3------------( CRN: 32257 )
+ (RH)
+bal   0: Level:   4---------------( CRN: 32256 )
+ (EH)
+bal   0: Level:   1------( CRN: 32255 )
+ (EH)
+bal   0: Level:   5------------------( CRN: 32254 )
+ (EH)
+bal  -1: Level:   4---------------( CRN: 32253 )
+ (RH)
+bal  -1: Level:   3------------( CRN: 32252 )
+ (RH)
+bal   0: Level:   4---------------( CRN: 32251 )
+ (EH)
+bal   0: Level:   2---------( CRN: 32250 )
+ (EH)
+bal   0: Level:   5------------------( CRN: 32249 )
+ (EH)
+bal  -1: Level:   4---------------( CRN: 32248 )
+ (RH)
+bal   0: Level:   3------------( CRN: 32247 )
+ (EH)
+bal   0: Level:   5------------------( CRN: 31690 )
+ (EH)
+bal   0: Level:   4---------------( CRN: 31483 )
+ (EH)
+bal   0: Level:   5------------------( CRN: 30996 )
+ (EH)
+bal   0: Level:   0---( CRN: 30462 )
+ (EH)
+bal   0: Level:   4---------------( CRN: 30253 )
+ (EH)
+bal   0: Level:   3------------( CRN: 30250 )
+ (EH)
+bal   0: Level:   4---------------( CRN: 30109 )
+ (EH)
+bal  -1: Level:   2---------( CRN: 00455 )
+ (RH)
+bal   0: Level:   3------------( CRN: 00453 )
+ (EH)
+bal   1: Level:   1------( CRN: 00450 )
+ (LH)
+bal   0: Level:   4---------------( CRN: 00448 )
+ (EH)
+bal   0: Level:   3------------( CRN: 00444 )
+ (EH)
+bal   0: Level:   4---------------( CRN: 00443 )
+ (EH)
+bal   1: Level:   2---------( CRN: 00440 )
+ (LH)
+bal   0: Level:   4---------------( CRN: 00439 )
+ (EH)
+bal   1: Level:   3------------( CRN: 00438 )
+ (LH)
+bal   0: Level:   5------------------( CRN: 00437 )
+ (EH)
+bal   0: Level:   4---------------( CRN: 00436 )
+ (EH)
+bal   0: Level:   5------------------( CRN: 00435 )
+ (EH)
+
+Enter Option: t
+[>>]    Print indented tree by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 2
+Level   8 :---------------------------( YU, LINYUN ) CRN: 00443
+Level   7 :------------------------( WEST, LINDA ) CRN: 32349
+Level   6 :---------------------( WEST, LINDA ) CRN: 32348
+Level   5 :------------------( SO, HANN ) CRN: 32248
+Level   7 :------------------------( SINGH, SUKHJIT ) CRN: 32260
+Level   6 :---------------------( SINGH, SUKHJIT ) CRN: 32259
+Level   4 :---------------( SINGH, SUKHJIT ) CRN: 30996
+Level   3 :------------( SINGH, SUKHJIT ) CRN: 00455
+Level   2 :---------( SINGH, SUKHJIT ) CRN: 00453
+Level   6 :---------------------( PAPE, MARY ) CRN: 32249
+Level   5 :------------------( PACHECO, HELLEN ) CRN: 32250
+Level   7 :------------------------( OLDHAM, IRA ) CRN: 32254
+Level   6 :---------------------( OLDHAM, IRA ) CRN: 32265
+Level   4 :---------------( OLDHAM, IRA ) CRN: 30253
+Level   7 :------------------------( NGUYEN, UYEN ) CRN: 32263
+Level   6 :---------------------( NGUYEN, UYEN ) CRN: 32251
+Level   5 :------------------( NGUYEN, UYEN ) CRN: 31690
+Level   3 :------------( NGUYEN, UYEN ) CRN: 30109
+Level   6 :---------------------( NGUYEN, TUAN ) CRN: 32264
+Level   5 :------------------( MORGAN JR, ALEXANDER ) CRN: 00436
+Level   4 :---------------( METCALF, KEVIN ) CRN: 30250
+Level   5 :------------------( LINN JR, ARTHUR ) CRN: 00448
+Level   6 :---------------------( LEE-KLAWENDER, CYNTHIA ) CRN: 32252
+Level   1 :------( LEE-KLAWENDER, CYNTHIA ) CRN: 00450
+Level   0 :---( LEE-KLAWENDER, CYNTHIA ) CRN: 32255
+Level   5 :------------------( KRISHNAMURTHY, LALITHA ) CRN: 32266
+Level   4 :---------------( KRISHNAMURTHY, LALITHA ) CRN: 32257
+Level   3 :------------( KLEINMAN, RONALD ) CRN: 31483
+Level   7 :------------------------( HOLMES, PATRICIA ) CRN: 32352
+Level   6 :---------------------( HEPBURN, WILLIAM ) CRN: 00435
+Level   5 :------------------( GEORGIOU, SPERANTA ) CRN: 00438
+Level   4 :---------------( GEORGIOU, SPERANTA ) CRN: 00437
+Level   2 :---------( GEORGIOU, SPERANTA ) CRN: 30462
+Level   5 :------------------( GARBACEA, DELIA-MANUELA ) CRN: 32256
+Level   4 :---------------( GARBACEA, DELIA-MANUELA ) CRN: 32253
+Level   3 :------------( GARBACEA, DELIA-MANUELA ) CRN: 32247
+Level   4 :---------------( DUNDURS, KARINA ) CRN: 00439
+Level   1 :------( BENTLEY, JOE ) CRN: 32353
+Level   3 :------------( BATES, RONNEY ) CRN: 00444
+Level   2 :---------( AHRENS, EDWARD ) CRN: 00440
+
+Enter Option: s
+[...]   Please enter key word: garbacea, delia-manuela
+        Search class by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 2
+Found match:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+
+Enter Option: s
+[...]   Please enter key word: cis022a
+        Search class by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 1
+Found match:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+
+Enter Option: s
+[...]   Please enter key word: 32266
+        Search class by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 0
+Found match:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+
+Enter Option: s
+[...]   Please enter key word: test
+        Search class by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 1
+No match is found!
+
+Enter Option: a
+[...]
+Enter CRN (#####): 00111
+Enter course: CIS888
+Enter course title: Programming in A++
+Enter instructor (Last, First): Jobs, Steve
+Enter course day (MTWThFSSu): Su
+
+Class added successfully
+
+Enter Option: l
+[>>]    Print sorted list by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 0
+TREE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 00111 | CIS888    |  Programming in A++                                     | Jobs, Steve               | Su
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+ 30109 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TTh
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+ 31690 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TBA
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+ 32251 | CIS022B   |  Intermediate Programming Methodologies in C++          | NGUYEN, UYEN              | MW
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+ 32263 | CIS21JA   |  Introduction to 8086/IA 32 Processor Assembly Language | NGUYEN, UYEN              | TBA
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+
+Enter Option: h
+HASH TABLE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+------------------+  BUCKET [3]
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+------------------+  BUCKET [8]
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+------------------+  BUCKET [14]
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+------------------+  BUCKET [17]
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+------------------+  BUCKET [19]
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+------------------+  BUCKET [21]
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+------------------+  BUCKET [23]
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+------------------+  BUCKET [26]
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+------------------+  BUCKET [30]
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+------------------+  BUCKET [31]
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+------------------+  BUCKET [32]
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+------------------+  BUCKET [35]
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+------------------+  BUCKET [38]
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+------------------+  BUCKET [40]
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+------------------+  BUCKET [41]
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+------------------+  BUCKET [42]
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+------------------+  BUCKET [44]
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+------------------+  BUCKET [45]
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+------------------+  BUCKET [48]
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+------------------+  BUCKET [51]
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+------------------+  BUCKET [54]
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+------------------+  BUCKET [56]
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+------------------+  BUCKET [60]
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 31690 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TBA
+ 00111 | CIS888    |  Programming in A++                                     | Jobs, Steve               | Su
+------------------+  BUCKET [61]
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+------------------+  BUCKET [63]
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+------------------+  BUCKET [65]
+ 30109 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TTh
+------------------+  BUCKET [67]
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+------------------+  BUCKET [68]
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+------------------+  BUCKET [69]
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+------------------+  BUCKET [74]
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+------------------+  BUCKET [76]
+ 32263 | CIS21JA   |  Introduction to 8086/IA 32 Processor Assembly Language | NGUYEN, UYEN              | TBA
+------------------+  BUCKET [77]
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+------------------+  BUCKET [78]
+ 32251 | CIS022B   |  Intermediate Programming Methodologies in C++          | NGUYEN, UYEN              | MW
+------------------+  BUCKET [79]
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+------------------+  BUCKET [81]
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+
+Enter Option: d
+[...]   Please enter key word: nguyen, uyen
+        Delete class by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 2
+Found match:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 30109 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TTh
+ 31690 | CIS018B   |  Advanced UNIX/LINUX                                    | NGUYEN, UYEN              | TBA
+ 32251 | CIS022B   |  Intermediate Programming Methodologies in C++          | NGUYEN, UYEN              | MW
+ 32263 | CIS21JA   |  Introduction to 8086/IA 32 Processor Assembly Language | NGUYEN, UYEN              | TBA
+
+Classes are removed from list!
+
+Enter Option: l
+[>>]    Print sorted list by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 1
+TREE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+ 00111 | CIS888    |  Programming in A++                                     | Jobs, Steve               | Su
+
+Enter Option: l
+[>>]    Print sorted list by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 2
+TREE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+ 00111 | CIS888    |  Programming in A++                                     | Jobs, Steve               | Su
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+
+
+Enter Option: d
+[...]   Please enter key word: 32353
+        Delete class by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 0
+Found match:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 32353 | CIS022B   |  Intermediate Programming Methodologies in C++          | BENTLEY, JOE              | TTh
+
+Classes are removed from list!
+
+Enter Option: l
+[>>]    Print sorted list by:
+            0. CRN             1. Course           2.Instructor
+Your choice: 1
+TREE DETAIL:
+
+   CRN |  COURSE   |  TITLE                                                  |  INSTRUCTOR               | DAY
+==============================================================================================================
+ 00435 | CIS002    |  Computers and the Internet in Society                  | HEPBURN, WILLIAM          | TBA
+ 00439 | CIS003    |  Business Information Systems                           | DUNDURS, KARINA           | TBA
+ 00437 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | MW
+ 00438 | CIS003    |  Business Information Systems                           | GEORGIOU, SPERANTA        | TTh
+ 00436 | CIS003    |  Business Information Systems                           | MORGAN JR, ALEXANDER      | MW
+ 00440 | CIS014A   |  Visual Basic .NET Programming I                        | AHRENS, EDWARD            | MW
+ 00444 | CIS018A   |  Introduction to UNIX/LINUX                             | BATES, RONNEY             | MW
+ 00443 | CIS018A   |  Introduction to UNIX/LINUX                             | YU, LINYUN                | TTh
+ 32257 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | MW
+ 32266 | CIS022A   |  Beginning Programming Methodologies in C++             | KRISHNAMURTHY, LALITHA    | TTh
+ 32250 | CIS022A   |  Beginning Programming Methodologies in C++             | PACHECO, HELLEN           | MW
+ 32248 | CIS022A   |  Beginning Programming Methodologies in C++             | SO, HANN                  | TTh
+ 32252 | CIS022A   |  Beginning Programming Methodologies in C++             | LEE-KLAWENDER, CYNTHIA    | MW
+ 32264 | CIS022A   |  Beginning Programming Methodologies in C++             | NGUYEN, TUAN              | TTh
+ 32249 | CIS022A   |  Beginning Programming Methodologies in C++             | PAPE, MARY                | TTh
+ 32254 | CIS022A   |  Beginning Programming Methodologies in C++             | OLDHAM, IRA               | MW
+ 32255 | CIS022B   |  Intermediate Programming Methodologies in C++          | LEE-KLAWENDER, CYNTHIA    | TTh
+ 32253 | CIS022B   |  Intermediate Programming Methodologies in C++          | GARBACEA, DELIA-MANUELA   | TTh
+ 32265 | CIS022B   |  Intermediate Programming Methodologies in C++          | OLDHAM, IRA               | TTh
+ 32256 | CIS022C   |  Data Abstraction and Structures                        | GARBACEA, DELIA-MANUELA   | MW
+ 32247 | CIS026A   |  C as a Second Programming Language                     | GARBACEA, DELIA-MANUELA   | TTh
+ 31483 | CIS028    |  Object Oriented Analysis and Design                    | KLEINMAN, RONALD          | MW
+ 00448 | CIS031    |  Operating System Concepts                              | LINN JR, ARTHUR           | TBA
+ 30250 | CIS033B   |  Advanced Perl Programming                              | METCALF, KEVIN            | TTh
+ 00450 | CIS035A   |  Java Programming as a Second Language                  | LEE-KLAWENDER, CYNTHIA    | TBA
+ 30996 | CIS035A   |  Java Programming as a Second Language                  | SINGH, SUKHJIT            | MW
+ 00453 | CIS035B   |  Advanced Java Programming                              | SINGH, SUKHJIT            | TTh
+ 32260 | CIS053    |  Java for Mobile Development                            | SINGH, SUKHJIT            | MW
+ 00455 | CIS064B   |  Introduction to SQL                                    | SINGH, SUKHJIT            | TBA
+ 30462 | CIS067A   |  Local Area Networks                                    | GEORGIOU, SPERANTA        | TBA
+ 30253 | CIS089A   |  Web Page Development                                   | OLDHAM, IRA               | TBA
+ 32348 | CIS093    |  Computer Literacy                                      | WEST, LINDA               | TBA
+ 32259 | CIS095B   |  Project Planning and Control - A Practicum             | SINGH, SUKHJIT            | SU
+ 32352 | CIS098    |  Digital Image Editing Software                         | HOLMES, PATRICIA          | F
+ 32349 | CIS099    |  Office Software Applications                           | WEST, LINDA               | TBA
+ 00111 | CIS888    |  Programming in A++                                     | Jobs, Steve               | Su
+
+Enter Option: a
+[...]
+Enter CRN (#####): 00435
+Enter course: CIS000
+Enter course title: Intro to Software Quality Assurance
+Enter instructor (Last, First): Team, Six
+Enter course day (MTWThFSSu): MWF
+
+NOT added: Existing CRN
+
+Enter Option: m
+    MENU:
+    A - Add class...
+    D - Delete class...
+    S - Search class...
+    H - Print hash table
+    L - Print sorted list >>
+    T - Print indented tree >>
+    E - Efficiency
+
+    F - Save to file...
+    M - Menu
+    Q - Quit
+
+Enter Option: f
+[...]   Save data to file as: cisOut.txt
+File is saved to cisOut.txt file
+
+Enter Option: q
+
+
+Goodbye!
+Press any key to continue . . .

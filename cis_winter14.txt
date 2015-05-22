@@ -1,0 +1,41 @@
+40
+32255;CIS022B;Intermediate Programming Methodologies in C++;TTh;LEE-KLAWENDER, CYNTHIA
+32353;CIS022B;Intermediate Programming Methodologies in C++;TTh;BENTLEY, JOE
+00450;CIS035A;Java Programming as a Second Language;TBA;LEE-KLAWENDER, CYNTHIA
+00440;CIS014A;Visual Basic .NET Programming I;MW;AHRENS, EDWARD
+30462;CIS067A;Local Area Networks;TBA;GEORGIOU, SPERANTA
+00453;CIS035B;Advanced Java Programming;TTh;SINGH, SUKHJIT
+00444;CIS018A;Introduction to UNIX/LINUX;MW;BATES, RONNEY
+32247;CIS026A;C as a Second Programming Language;TTh;GARBACEA, DELIA-MANUELA
+31483;CIS028;Object Oriented Analysis and Design;MW;KLEINMAN, RONALD
+30109;CIS018B;Advanced UNIX/LINUX;TTh;NGUYEN, UYEN
+00455;CIS064B;Introduction to SQL;TBA;SINGH, SUKHJIT
+00439;CIS003;Business Information Systems;TBA;DUNDURS, KARINA
+32253;CIS022B;Intermediate Programming Methodologies in C++;TTh;GARBACEA, DELIA-MANUELA
+00437;CIS003;Business Information Systems;MW;GEORGIOU, SPERANTA
+32257;CIS022A;Beginning Programming Methodologies in C++;MW;KRISHNAMURTHY, LALITHA
+30250;CIS033B;Advanced Perl Programming;TTh;METCALF, KEVIN
+30253;CIS089A;Web Page Development;TBA;OLDHAM, IRA
+30996;CIS035A;Java Programming as a Second Language;MW;SINGH, SUKHJIT
+32256;CIS022C;Data Abstraction and Structures;MW;GARBACEA, DELIA-MANUELA
+00438;CIS003;Business Information Systems;TTh;GEORGIOU, SPERANTA
+32266;CIS022A;Beginning Programming Methodologies in C++;TTh;KRISHNAMURTHY, LALITHA
+00448;CIS031;Operating System Concepts;TBA;LINN JR, ARTHUR
+00436;CIS003;Business Information Systems;MW;MORGAN JR, ALEXANDER
+31690;CIS018B;Advanced UNIX/LINUX;TBA;NGUYEN, UYEN
+32250;CIS022A;Beginning Programming Methodologies in C++;MW;PACHECO, HELLEN
+32248;CIS022A;Beginning Programming Methodologies in C++;TTh;SO, HANN
+00435;CIS002;Computers and the Internet in Society;TBA;HEPBURN, WILLIAM
+32252;CIS022A;Beginning Programming Methodologies in C++;MW;LEE-KLAWENDER, CYNTHIA
+32264;CIS022A;Beginning Programming Methodologies in C++;TTh;NGUYEN, TUAN
+32251;CIS022B;Intermediate Programming Methodologies in C++;MW;NGUYEN, UYEN
+32265;CIS022B;Intermediate Programming Methodologies in C++;TTh;OLDHAM, IRA
+32249;CIS022A;Beginning Programming Methodologies in C++;TTh;PAPE, MARY
+32259;CIS095B;Project Planning and Control - A Practicum;SU;SINGH, SUKHJIT
+32348;CIS093;Computer Literacy;TBA;WEST, LINDA
+32352;CIS098;Digital Image Editing Software ;F;HOLMES, PATRICIA
+32263;CIS21JA;Introduction to 8086/IA 32 Processor Assembly Language;TBA;NGUYEN, UYEN
+32254;CIS022A;Beginning Programming Methodologies in C++;MW;OLDHAM, IRA
+32260;CIS053;Java for Mobile Development;MW;SINGH, SUKHJIT
+32349;CIS099;Office Software Applications;TBA;WEST, LINDA
+00443;CIS018A;Introduction to UNIX/LINUX;TTh;YU, LINYUN

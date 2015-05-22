@@ -1,0 +1,191 @@
+190
+30453;MATH010;Elementary Statistics and Probability;TBA;MARKUS, LISA
+31491;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;BAMBHANIA, DOLI
+01267;MATH010;Elementary Statistics and Probability;T;MOEN, LORAINE
+31773;MATH041;Precalculus I: Theory of Functions;TTh;AUYOUNG, YATMAN
+31484;MATH001A;Calculus;MTWThF;KLEIN, CHARLES
+01220;MATH001A;Calculus;MTWThF;MATHIOS, DIANE
+30686;MATH001A;Calculus;MTWThF;SHI, KEJIAN
+01321;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;ABB, WILLIAM
+30312;MATH114;College Math Preparation Level 3: Intermediate Algebra;TTh;AUYOUNG, YATMAN
+01219;MATH001A;Calculus;MTWThF;GANESHALINGAM, USHA
+01227;MATH001B;Calculus;MTWThF;LO, BERTRAND
+31495;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;MATHIOS, DIANE
+01224;MATH001A;Calculus;TTh;SADEGHI-HASSANVAND, BIJAN
+31440;MATH001B;Calculus;MTWThF;TAYLOR, RODERIC
+01322;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;ABB, WILLIAM
+01342;MATH210;College Math Preparation Level 1: Pre-Algebra;TTh;AUYOUNG, YATMAN
+01222;MATH001A;Calculus;TTh;BLOOM, ROBERTA
+31761;MATH001A;Calculus;MW;ISON, MILLIA
+30332;MATH001C;Calculus;MTWThF;KRYLIOUK, IAROSLAV
+31967;MATH041;Precalculus I: Theory of Functions;MW;LOPEZ, RICHARD
+31942;MATH001B;Calculus;MTWThF;NJINIMBAM, EDWIN
+01237;MATH001C;Calculus;MW;SEKHON, RUPINDER
+01255;MATH010;Elementary Statistics and Probability;MW;SNOW, FRANKLIN
+01241;MATH002A;Differential Equations;TTh;WHEELER, DANIEL
+01226;MATH001B;Calculus;MTWThF;BAMBHANIA, DOLI
+01229;MATH001B;Calculus;MTWThF;FOUQUETTE, REBECCA
+01238;MATH001C;Calculus;MW;GARRISON, WARREN
+01223;MATH001A;Calculus;TTh;ISON, MILLIA
+30322;MATH041;Precalculus I: Theory of Functions;TTh;KRESTAS, GEORGE
+31946;MATH002A;Differential Equations;MTWThF;KRYLIOUK, IAROSLAV
+01302;MATH114;College Math Preparation Level 3: Intermediate Algebra;MWF;LO, BERTRAND
+30579;MATH041;Precalculus I: Theory of Functions;TTh;LOPEZ, RICHARD
+32473;MATH001B;Calculus;TTh;NGUYEN, DUC
+01228;MATH001B;Calculus;MTWThF;NJINIMBAM, EDWIN
+30752;MATH002B;Linear Algebra;MW;SCHAFFER, KARL
+31762;MATH001D;Calculus;TTh;SEKHON, RUPINDER
+31054;MATH011;Finite Mathematics;MTWThF;SHI, KEJIAN
+01260;MATH010;Elementary Statistics and Probability;MW;SNOW, FRANKLIN
+01246;MATH010;Elementary Statistics and Probability;MTWThF;VANNIASEGARAM, SITHPARRAN
+30754;MATH012;Introductory Calculus for Business and Social Science;TTh;WHEELER, DANIEL
+31968;MATH022;Discrete Mathematics;MTWThF;BAMBHANIA, DOLI
+32242;MATH001B;Calculus;MW;CAO, MICHAEL
+30315;MATH010;Elementary Statistics and Probability;TTh;FOUQUETTE, REBECCA
+31540;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWTh;GANESHALINGAM, USHA
+01240;MATH001D;Calculus;TTh;HANSEN, RICHARD
+01231;MATH001B;Calculus;MW;JONES, FRANK
+31764;MATH042;Precalculus II: Trigonometric Functions;MTWThF;KLEIN, CHARLES
+31224;MATH041;Precalculus I: Theory of Functions;MW;KRESTAS, GEORGE
+01244;MATH010;Elementary Statistics and Probability;MTWThF;KUO, YUAN
+01303;MATH114;College Math Preparation Level 3: Intermediate Algebra;MWF;LO, BERTRAND
+30818;MATH042;Precalculus II: Trigonometric Functions;MW;MAILHOT, JAMES
+31102;MATH001C;Calculus;MTWThF;MOSH, FARSHOD
+30753;MATH010;Elementary Statistics and Probability;MW;NGUYEN, NHA
+01230;MATH001B;Calculus;TTh;RATNASAMY, JULIA
+01364;MATH212;College Math Preparation Level 2: Beginning Algebra;TTh;SADEGHI-HASSANVAND, BIJAN
+01279;MATH022;Discrete Mathematics;TTh;SCHAFFER, KARL
+01256;MATH010;Elementary Statistics and Probability;TTh;SEKHON, RUPINDER
+31766;MATH043;Precalculus III: Advanced Topics;MW;SMITH, TIMOTHY
+01261;MATH010;Elementary Statistics and Probability;TTh;STAFF, M
+31489;MATH042;Precalculus II: Trigonometric Functions;MTWThF;VAN DER POEL, MISAKO
+01254;MATH010;Elementary Statistics and Probability;MTWThF;VANNIASEGARAM, SITHPARRAN
+30822;MATH043;Precalculus III: Advanced Topics;MTWThF;WOLFE, STEPHEN
+31496;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;BENSIDI, NADIA
+01243;MATH002B;Linear Algebra;MTWThF;BOURGOUB, HASSAN
+31052;MATH010;Elementary Statistics and Probability;MTWThF;FISCHER, RANI
+30824;MATH043;Precalculus III: Advanced Topics;MTWThF;FOUQUETTE, REBECCA
+01257;MATH010;Elementary Statistics and Probability;M;GERAGHTY, MAURICE
+31061;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;HOUSER, ERIK
+01314;MATH114;College Math Preparation Level 3: Intermediate Algebra;TTh;ISON, MILLIA
+01236;MATH001C;Calculus;MTWThF;JUDSON, ZACHARY
+30823;MATH043;Precalculus III: Advanced Topics;MTWThF;KLEIN, CHARLES
+30819;MATH042;Precalculus II: Trigonometric Functions;TTh;KRESTAS, GEORGE
+01299;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;KRYLIOUK, IAROSLAV
+01268;MATH010;Elementary Statistics and Probability;TTh;KY, TECK
+01365;MATH212;College Math Preparation Level 2: Beginning Algebra;MW;LOPEZ, RICHARD
+32328;MATH042;Precalculus II: Trigonometric Functions;TTh;MAILHOT, JAMES
+01249;MATH010;Elementary Statistics and Probability;MTWThF;MOEN, LORAINE
+30334;MATH010;Elementary Statistics and Probability;MTWThF;MOSH, FARSHOD
+32272;MATH010;Elementary Statistics and Probability;MW;NGUYEN, NHA
+01232;MATH001B;Calculus;TTh;PETERSON, SCOTT
+30323;MATH041;Precalculus I: Theory of Functions;TTh;RUDOLF, HOWARD
+01368;MATH212;College Math Preparation Level 2: Beginning Algebra;MW;SALES, PARVIZ
+01281;MATH046;Mathematics for Elementary Education;TTh;SCHAFFER, KARL
+01313;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;SEKHON, RUPINDER
+01280;MATH044;Introduction to Contemporary Mathematics;TTh;SHI, KEJIAN
+31953;MATH077X;Special Projects in Mathematics (TBA);TBA;SOLER, FRANCISCO
+01277;MATH011;Finite Mathematics;MW;STAFF, M
+30816;MATH042;Precalculus II: Trigonometric Functions;MTWTh;TRAN, DANNY
+01301;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;VAN DER POEL, MISAKO
+31220;MATH041;Precalculus I: Theory of Functions;MTWThF;VANNIASEGARAM, SITHPARRAN
+01326;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;ZHANG, LINLIN
+01259;MATH010;Elementary Statistics and Probability;MTWThF;BOURGOUB, HASSAN
+30335;MATH010;Elementary Statistics and Probability;MTWThF;DESILETS, LENORE
+01319;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;GAWBILL, JANET
+31763;MATH011;Finite Mathematics;TTh;HANSEN, JOEL
+32345;MATH212;College Math Preparation Level 2: Beginning Algebra;MW;HEADLEY, STEPHEN
+31921;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;HOUSER, ERIK
+01354;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;ISON, MILLIA
+01366;MATH212;College Math Preparation Level 2: Beginning Algebra;TTh;JONES, FRANK
+30331;MATH001D;Calculus;MTWThF;KHOSRAVI, MEHRDAD
+30820;MATH042;Precalculus II: Trigonometric Functions;MW;KRESTAS, GEORGE
+30311;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;KRYLIOUK, IAROSLAV
+01270;MATH010;Elementary Statistics and Probability;TTh;KY, TECK
+32346;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWTh;MAILHOT, JAMES
+01320;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;MOISE, BERNADETTE
+30815;MATH042;Precalculus II: Trigonometric Functions;MTWThF;MOSH, FARSHOD
+01315;MATH114;College Math Preparation Level 3: Intermediate Algebra;TTh;NICOLETTI, RONALD
+01276;MATH011;Finite Mathematics;MTWThF;NJINIMBAM, EDWIN
+01248;MATH010;Elementary Statistics and Probability;MTWThF;RASHID, NAHRIN
+01307;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;RATNASAMY, JULIA
+32644;MATH212;College Math Preparation Level 2: Beginning Algebra;TTh;RUDOLF, HOWARD
+30977;MATH212;College Math Preparation Level 2: Beginning Algebra;MW;SALES, PARVIZ
+30337;MATH210;College Math Preparation Level 1: Pre-Algebra;TTh;SCHROERLUCKE, DAVID
+30826;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;SHI, KEJIAN
+30324;MATH041;Precalculus I: Theory of Functions;MW;STAFF, M
+01346;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;TAYLOR, RODERIC
+31064;MATH114;College Math Preparation Level 3: Intermediate Algebra;TTh;TRAYER, KAREN
+31539;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;WOLFE, STEPHEN
+01339;MATH210;College Math Preparation Level 1: Pre-Algebra;MW;ZHANG, LINLIN
+30319;MATH041;Precalculus I: Theory of Functions;MTWThF;BOURGOUB, HASSAN
+31923;MATH010;Elementary Statistics and Probability;TTh;CAO, MICHAEL
+01274;MATH011;Finite Mathematics;TTh;DU, JIANBO
+32334;MATH057;Integrated Statistics 2;MTWTh;GERAGHTY, MAURICE
+31767;MATH114;College Math Preparation Level 3: Intermediate Algebra;TTh;HANSEN, JOEL
+01361;MATH212;College Math Preparation Level 2: Beginning Algebra;MW;HEADLEY, STEPHEN
+31772;MATH212;College Math Preparation Level 2: Beginning Algebra;MW;ISON, MILLIA
+01258;MATH010;Elementary Statistics and Probability;MW;KAPUR, RENUKA
+31488;MATH012;Introductory Calculus for Business and Social Science;MTWThF;KHOSRAVI, MEHRDAD
+30825;MATH043;Precalculus III: Advanced Topics;TTh;KRESTAS, GEORGE
+01272;MATH011;Finite Mathematics;MTWThF;LEGGE, VICTOR
+01332;MATH210;College Math Preparation Level 1: Pre-Algebra;MTWThF;MOEN, LORAINE
+31062;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;MOSH, FARSHOD
+31055;MATH041;Precalculus I: Theory of Functions;MTWThF;NJINIMBAM, EDWIN
+01250;MATH010;Elementary Statistics and Probability;MTWThF;RAMSEY, ROBERT
+31063;MATH210;College Math Preparation Level 1: Pre-Algebra;MTWThF;RASHID, NAHRIN
+01308;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;RATNASAMY, JULIA
+01359;MATH212;College Math Preparation Level 2: Beginning Algebra;TTh;SCHROERLUCKE, DAVID
+01306;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;SHI, KEJIAN
+31490;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;STAFF, M
+01348;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;TAYLOR, RODERIC
+01345;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;TRAN, DANNY
+30827;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;TSUJI, CHRISTIE
+30320;MATH041;Precalculus I: Theory of Functions;MTWThF;BOURGOUB, HASSAN
+01264;MATH010;Elementary Statistics and Probability;MW;DE VOGELAERE, CHARLES
+31058;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;DESILETS, LENORE
+32327;MATH041;Precalculus I: Theory of Functions;TTh;DU, JIANBO
+01317;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;GHORI, ABDUL
+30578;MATH041;Precalculus I: Theory of Functions;MTWThF;JUDSON, ZACHARY
+32271;MATH010;Elementary Statistics and Probability;MW;KAPUR, RENUKA
+31961;MATH041;Precalculus I: Theory of Functions;TTh;KIFER, CURTIS
+01325;MATH114;College Math Preparation Level 3: Intermediate Algebra;TTh;LE, HUONG
+01331;MATH210;College Math Preparation Level 1: Pre-Algebra;MTWThF;LEGGE, VICTOR
+01350;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;MOSH, FARSHOD
+30328;MATH043;Precalculus III: Advanced Topics;MW;NJINIMBAM, EDWIN
+01251;MATH010;Elementary Statistics and Probability;MTWThF;PLUM, KATHRYN
+01253;MATH010;Elementary Statistics and Probability;MTWThF;RAMSEY, ROBERT
+01334;MATH210;College Math Preparation Level 1: Pre-Algebra;MTWThF;RASHID, NOELLA
+31895;MATH114;College Math Preparation Level 3: Intermediate Algebra;TTh;REZVANI, MOHAMAD
+31492;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;STAFF, M
+01351;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;TRAN, DANNY
+01316;MATH114;College Math Preparation Level 3: Intermediate Algebra;MW;BOWMAN, RONALD
+31066;MATH041;Precalculus I: Theory of Functions;MTWThF;DANILOVA, NINA
+32645;MATH210;College Math Preparation Level 1: Pre-Algebra;TTh;DELGADO, RICARDO
+01352;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;DESILETS, LENORE
+32347;MATH217;Integrated Statistics I;MTTh;GERAGHTY, MAURICE
+01338;MATH210;College Math Preparation Level 1: Pre-Algebra;MW;GHORI, ABDUL
+30326;MATH041;Precalculus I: Theory of Functions;MTWThF;JUDSON, ZACHARY
+30817;MATH042;Precalculus II: Trigonometric Functions;MTWThF;KHOSRAVI, MEHRDAD
+31774;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;KIFER, CURTIS
+31769;MATH210;College Math Preparation Level 1: Pre-Algebra;MTWThF;LEGGE, VICTOR
+31223;MATH010;Elementary Statistics and Probability;TTh;PHELPS, ANDREW
+01252;MATH010;Elementary Statistics and Probability;MTWThF;PLUM, KATHRYN
+31059;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWTh;RAMSEY, ROBERT
+31922;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;RASHID, NOELLA
+01370;MATH212;College Math Preparation Level 2: Beginning Algebra;TTh;REZVANI, MOHAMAD
+32335;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;STAFF, M
+30829;MATH242;Academic Excellence in Trigonometry;Th;TRAN, DANNY
+31060;MATH210;College Math Preparation Level 1: Pre-Algebra;MTWThF;BOURGOUB, HASSAN
+01341;MATH210;College Math Preparation Level 1: Pre-Algebra;MW;CHADDA, AMARJIT
+01304;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWThF;DANILOVA, NINA
+31497;MATH114;College Math Preparation Level 3: Intermediate Algebra;MTWTh;KHOSRAVI, MEHRDAD
+01357;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWTh;KIFER, CURTIS
+01278;MATH012;Introductory Calculus for Business and Social Science;TTh;PETERSON, SCOTT
+01360;MATH212;College Math Preparation Level 2: Beginning Algebra;TTh;PHELPS, ANDREW
+30336;MATH010;Elementary Statistics and Probability;MW;PLUM, KATHRYN
+31770;MATH210;College Math Preparation Level 1: Pre-Algebra;MTWThF;STAFF, M
+31537;MATH212;College Math Preparation Level 2: Beginning Algebra;MTWThF;PLUM, KATHRYN
+01335;MATH210;College Math Preparation Level 1: Pre-Algebra;MTWThF;STAFF, M
+01336;MATH210;College Math Preparation Level 1: Pre-Algebra;MW;STAFF, M
+01362;MATH212;College Math Preparation Level 2: Beginning Algebra;MW;STAFF, M
